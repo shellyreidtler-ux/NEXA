@@ -1,0 +1,117 @@
+/* --- ESTILOS EXCLUSIVOS PARA CASO-VIDEO.CSS --- */
+:root {
+    --eco-bg: #f4f7f2;
+    --eco-card: #ffffff;
+    --eco-primary: #557A46;
+    --eco-accent: #85A947;
+    --eco-text: #2c3e2d;
+    --eco-gray: #6b7c6d;
+    --eco-black: #000000;
+    --eco-green: #bed497a4;
+}
+
+body.nexa-portafolio {
+    background-color: var(--eco-bg) !important;
+    background-image: none !important;
+    color: var(--eco-text) !important;
+}
+
+.nexa-header {
+    background-color: var(--eco-card) !important;
+    border-radius: 30px !important;
+    box-shadow: 0 25px 30px rgba(85, 122, 70, 0.08) !important;
+    border: 1px solid rgba(85, 122, 70, 0.1);
+}
+
+.nexa-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nexa-nav a {
+    color: var(--eco-black);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 8px 20px;
+    border-radius: var(--radius-lg);
+    background-color: #bed497a4;
+    transition: transform 0.3s ease;
+}
+
+.nexa-nav a:hover {
+    background-color: var(--eco-accent) !important;
+    color: #ffffff !important;
+    transform: translateY(-5px);
+}
+
+.container {
+    background-color: var(--eco-card) !important;
+    border-radius: 30px !important;
+    box-shadow: 0 15px 35px rgba(85, 122, 70, 0.06) !important;
+    border: 1px solid rgba(85, 122, 70, 0.08);
+    padding: 40px !important;
+}
+
+.container h2 {
+    color: var(--eco-primary) !important;
+    font-weight: 800;
+    font-size: 2.4rem;
+}
+
+.container p {
+    color: var(--eco-gray);
+    font-size: 1.3rem;
+}
+
+.card {
+    background-color: var(--eco-bg) !important;
+    border-radius: 20px !important;
+    border-left: 5px solid var(--eco-primary) !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-bottom: none !important;
+    box-shadow: 0 5px 15px #2c3e2d;
+    padding: 25px !important;
+}
+
+.card h3 {
+    color: var(--eco-primary) !important;
+    font-size: 1.5rem;
+    font-style: oblique;
+}
+
+.card p, .card li {
+    color: var(--eco-text) !important;
+    font-size: 1rem;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+
+.btn-cta {
+    background-color: var(--eco-primary) !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 12px rgba(85, 122, 70, 0.3) !important;
+}
+
+.btn-cta:hover {
+    background-color: var(--eco-accent) !important;
+}
+
+.video-container {
+    border-radius: 20px !important;
+    overflow: hidden;
+    box-shadow: 0 10px 25px #85A947 !important;
+}
+
+.nexa-footer {
+    background-color: var(--eco-card) !important;
+    border-radius: 30px !important;
+    color: var(--eco-gray) !important;
+    box-shadow: 0 -5px 15px rgba(85, 122, 70, 0.05);
+    font-size: 1.1rem;
+}

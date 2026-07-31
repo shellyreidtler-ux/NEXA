@@ -1,0 +1,146 @@
+/* --- ESTILOS EXCLUSIVOS PARA CASO-CUNIAS.CSS (Paleta Beige y Vinotinto) --- */
+:root {
+    --cunia-bg: #f7f4ed;          /* Fondo beige claro y suave */
+    --cunia-card: #ffffff;        /* Blanco puro para tarjetas */
+    --cunia-dark: #2c1a1d;        /* Marrón muy oscuro para textos principales */
+    --cunia-wine: #6b1d2f;        /* Vinotinto elegante y profundo */
+    --cunia-wine-hover: #85243b;  /* Vinotinto más claro para efectos hover */
+    --cunia-beige-accent: #e6dfd1;/* Beige un poco más oscuro para detalles o bordes */
+    --cunia-text: #4a383b;        /* Texto secundario cálido */
+}
+
+body.nexa-portafolio {
+    background-color: var(--cunia-bg) !important;
+    background-image: none !important;
+    color: var(--cunia-text) !important;
+}
+
+/* Cabecera superior en tono vinotinto con acento beige */
+.nexa-header {
+    background-color: var(--cunia-wine) !important;
+    border-radius: 0 0 25px 25px !important;
+    box-shadow: 0 4px 20px rgba(107, 29, 47, 0.2) !important;
+    border-bottom: 2px solid var(--cunia-beige-accent) !important;
+    padding: 15px 30px !important;
+}
+
+.nexa-nav a {
+    color: #ffffff !important;
+    background-color: rgba(255, 255, 255, 0.15) !important;
+    border-radius: 20px !important;
+    padding: 8px 16px !important;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.nexa-nav a:hover {
+    background-color: var(--cunia-beige-accent) !important;
+    color: var(--cunia-wine) !important;
+}
+
+/* Contenedor principal de la página */
+.container {
+    background-color: var(--cunia-card) !important;
+    border-radius: 25px !important;
+    box-shadow: 0 15px 40px rgba(107, 29, 47, 0.06) !important;
+    border: 1px solid var(--cunia-beige-accent);
+    padding: 40px !important;
+    margin-top: 30px !important;
+}
+
+.container h2 {
+    color: var(--cunia-wine) !important;
+    font-weight: 800;
+    font-size: 2.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    border-bottom: 3px solid var(--cunia-beige-accent);
+    padding-bottom: 15px;
+}
+
+.container p {
+    color: var(--cunia-text);
+    font-size: 1.5rem;
+}
+
+/* Tarjetas internas con barra lateral vinotinto y fondo beige */
+.card {
+    background-color: var(--cunia-bg) !important;
+    border-radius: 18px !important;
+    border-left: 6px solid var(--cunia-wine) !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    padding: 25px !important;
+    margin-bottom: 20px;
+    border-top: 1px solid var(--cunia-beige-accent);
+    border-right: 1px solid var(--cunia-beige-accent);
+    border-bottom: 5px solid var(--cunia-wine);
+}
+
+.card h3 {
+    color: var(--cunia-wine) !important;
+    font-size: 1.7rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card p, .card li {
+    color: var(--cunia-dark) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+/* Botones principales en tono vinotinto */
+.btn-cta {
+    background-color: var(--cunia-wine) !important;
+    color: #ffffff !important;
+    border-radius: 20px !important;
+    box-shadow: 0 4px 10px rgba(107, 29, 47, 0.25) !important;
+    text-decoration: none !important;
+}
+
+.btn-cta:hover {
+    background-color: var(--cunia-wine-hover) !important;
+}
+
+/* Tarjeta especial para el reproductor de audio */
+.audio-hero-card {
+    background: linear-gradient(135deg, var(--cunia-bg), #fff5f7);
+    border-radius: 20px;
+    padding: 35px;
+    text-align: center;
+    margin: 25px 0;
+    border: 2px dashed var(--cunia-wine);
+}
+
+.audio-icon-large {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+}
+
+.audio-hero-card h3 {
+    color: var(--cunia-wine) !important;
+}
+
+.audio-hero-card p {
+    color: var(--cunia-dark) !important;
+}
+
+.reproductor-radial {
+    width: 100%;
+    max-width: 500px;
+    margin-top: 20px;
+    accent-color: var(--cunia-wine);
+}
+
+/* Pie de página */
+.nexa-footer {
+    background-color: var(--cunia-wine) !important;
+    border-radius: 25px !important;
+    color: #ffffff !important;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 25px;
+    margin-top: 40px;
+    border-top: 2px solid var(--cunia-beige-accent);
+    box-shadow: 0 -5px 15px rgba(0,0,0,0.05);
+}
